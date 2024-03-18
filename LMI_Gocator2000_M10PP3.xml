@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Example Revision="10.30.0595" Name="LMI_Gocator2000_M10PP3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../.schema/example_restriction.xsd">
+ <Categories>
+  <Category Name="Overview">
+   <Category Name="Advanced">
+    <Category Name="Processing"/>
+   </Category>
+  </Category>
+  <Category Name="Industries">
+   <Category Name="Automation"/>
+   <Category Name="Automotive"/>
+   <Category Name="Electronics"/>
+   <Category Name="Packaging"/>
+  </Category>
+  <Category Name="Applications">
+   <Category Name="3D profiling"/>
+  </Category>
+  <Category Name="Modules">
+   <Category Name="Buffer"/>
+   <Category Name="Display"/>
+   <Category Name="Image Processing"/>
+   <Category Name="Calibration"/>
+  </Category>
+  <Category Name="What's New">
+   <Category Name="MIL 10.0 PP1" New="1"/>
+  </Category>
+ </Categories>
+ <Description>This program acquires a calibrated depth map using an LMI Gocator profile
+sensor with the Gocator 2000 API. It then converts the depth map to the MIL
+format and displays the result.
+ </Description>
+ <Languages>
+  <Language>C++</Language>
+  <LinuxLanguage>C++</LinuxLanguage>
+ </Languages>
+ <Functions>
+  <Function>MappAlloc</Function>
+  <Function>MappFree</Function>
+  <Function>MbufAlloc2d</Function>
+  <Function>MbufCopy</Function>
+  <Function>MbufCreate2d</Function>
+  <Function>MbufFree</Function>
+  <Function>McalControl</Function>
+  <Function>McalUniform</Function>
+  <Function>MdispAlloc</Function>
+  <Function>MdispControl</Function>
+  <Function>MdispFree</Function>
+  <Function>MdispSelect</Function>
+  <Function>MimArith</Function>
+  <Function>MsysAlloc</Function>
+  <Function>MsysFree</Function>
+ </Functions>
+ <Licenses>
+  <License>Image Analysis</License>
+ </Licenses>
+ <Keywords>
+  <Keyword>3D profiling</Keyword>
+  <Keyword>3D reconstruction</Keyword>
+  <Keyword>Sheet-of-light</Keyword>
+  <Keyword>3D depth map</Keyword>
+  <Keyword>3D laser scanner</Keyword>
+ </Keywords>
+ <Notes>
+  <Note>Interfaces to a third-party SDK</Note>
+  <Note>Supports digitizer use</Note>
+ </Notes>
+</Example>
